@@ -1,0 +1,47 @@
+#"Recurrence Code"
+ 
+{
+    "recurrence": {
+        "frequency": "Week",
+        "interval": 1,
+        "startTime": "2021-09-14T08:00:00.000Z",
+        "schedule": {
+            "weekDays": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ]
+        }
+    },
+    "metadata": {
+        "operationMetadataId": "faa861cb-7de3-401b-9703-f31bd2eaaf36"
+    }
+}
+ 
+#“List Rows present in a table”
+{
+    "inputs": {
+        "host": {
+            "connectionName": "shared_excelonlinebusiness",
+            "operationId": "GetItems",
+            "apiId": "/providers/Microsoft.PowerApps/apis/shared_excelonlinebusiness"
+        },
+        "parameters": {
+            "source": "sites/indoeuropeanfoodsltd.sharepoint.com,a0504abc-415a-4701-8ef7-d16b6432bb67,c44e1a3b-5e4f-47e8-b777-64e5f6c226a1",
+            "drive": "b!vEpQoFpBAUeO99FrZDK7ZzsaTsRPXuhHt3dk5fbCJqGVc-80SJfSQYLXXaRvzrsK",
+            "file": "01S5KLNBC5PR4VXSIVWBG24VPDLUOVI5ZU",
+            "table": "{141EFB9C-D5B3-4E56-B9A8-EF1ED2CE252E}",
+            "$filter": "Status eq '*Is due to expire'"
+        },
+        "authentication": "@parameters('$authentication')"
+    },
+    "metadata": {
+        "01S5KLNBFGPSFLBADFOBEY4WGWAIKCDUJ2": "/Non-conformance/Non_conformance log (Work in progress).xlsx",
+        "tableId": "{141EFB9C-D5B3-4E56-B9A8-EF1ED2CE252E}",
+        "operationMetadataId": "29331e6b-4033-4193-ab88-bc86faf52f11",
+        "01S5KLNBBFD6JDZMIO2FDI7QMJVWUN2XOE": "/Non-conformance/Non_conformance log (Work in progress).xlsx",
+        "01S5KLNBC5PR4VXSIVWBG24VPDLUOVI5ZU": "/Supplier Assurance & Specs Documents Review.xlsx"
+    }
+}
